@@ -1,12 +1,12 @@
-import logo from './logo.svg';
+import me from './me.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>I am Hannah Nissenbaum!</h1>
+        <img src={me} className="App-logo" alt="logo" />
+        <h1>Hi, welcome to my Website!</h1>
       </header>
     </div>
   );
