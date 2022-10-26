@@ -1,0 +1,138 @@
+.technical-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.technical-blog-post-card {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  box-shadow: 4px 4px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.technical-blog-post-card:hover {
+  transform: scale(1.02);
+}
+.technical-image {
+  width: 350px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 0px;
+}
+.technical-container1 {
+  height: auto;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #a4a4a4;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.technical-container2 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.technical-link {
+  color: #595959;
+  align-self: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.technical-text {
+  color: #595959;
+  font-weight: 300;
+}
+.technical-text01 {
+  font-weight: 300;
+}
+.technical-text03 {
+  font-weight: 300;
+}
+.technical-text04 {
+  font-size: 30px;
+  font-style: normal;
+  text-align: left;
+  font-family: DM Sans;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.technical-text05 {
+  color: #595959;
+  font-size: 1.25rem;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.technical-text06 {
+  color: var(--dl-color-scheme-brown);
+  text-decoration: underline;
+}
+.technical-text09 {
+  font-style: normal;
+  font-weight: 700;
+}
+.technical-text13 {
+  font-style: normal;
+  font-weight: 700;
+}
+.technical-text17 {
+  font-style: normal;
+  font-weight: 700;
+}
+.technical-container3 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.technical-profile {
+  display: flex;
+  align-items: center;
+}
+.technical-image1 {
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-radius8);
+}
+.technical-text23 {
+  font-style: normal;
+  font-weight: 600;
+  margin-left: var(--dl-space-space-halfunit);
+}
+@media(max-width: 991px) {
+  .technical-blog-post-card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media(max-width: 767px) {
+  .technical-blog-post-card {
+    flex-direction: column;
+  }
+  .technical-image {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .technical-container3 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

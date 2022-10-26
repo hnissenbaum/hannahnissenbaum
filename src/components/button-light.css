@@ -1,0 +1,19 @@
+.button-light-container {
+  display: flex;
+  position: relative;
+}
+.button-light-primary {
+  transition: 0.3s;
+  margin-bottom: 0px;
+}
+.button-light-primary:hover {
+  border-color: var(--dl-color-scheme-white);
+  border-width: 3px;
+}
+
+.button-light-root-class-name1 {
+  background-color: var(--dl-color-scheme-white);
+}
+.button-light-root-class-name2 {
+  margin-bottom: var(--dl-space-space-threeunits);
+}

@@ -1,0 +1,14 @@
+.button-red-container {
+  display: flex;
+  position: relative;
+}
+.button-red-primary {
+  transition: 0.3s;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.button-red-primary:hover {
+  color: var(--dl-color-scheme-darkblue);
+  border-color: var(--dl-color-scheme-brown);
+  border-width: 3px;
+  background-color: var(--dl-color-scheme-white);
+}
