@@ -1,0 +1,75 @@
+.section1 {
+  background-color: #cccfbd;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Set the minimum height of the section to 100% of the viewport height */
+  overflow-y: auto; /* Enable vertical scrolling when the content exceeds the height */
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  padding-top: 70px; /* Account for the navbar height */
+  overflow-y: auto; /* Enable vertical scrolling when the content exceeds the height */
+  justify-content: center;
+  
+}
+
+.object-item-row {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  scrollbar-width: none;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  min-height: 0; /* Reset the default min-height value */
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.object-item-content {
+  text-align: center;
+  overflow-y: auto;
+}
+
+.object-item-title {
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+.object-item-subtitle {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.object-item-tags {
+  width: 100%;
+  overflow-y: auto;
+}
+
+.object-item-tag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0.25rem;
+  background-color: #cccfbd;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.object-item-tag:hover {
+  background-color: #c2c5b6;
+}
+
+.activetag {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  margin: 0 0.25rem;
+  background-color: #a9ac9c;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+}
